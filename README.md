@@ -3,7 +3,7 @@
 This repository houses the code for "Graph Neural Network for finding the shortest path" 
 In detail, it creates random graphs, and trains a graph network to label the nodes and edges on the shortest path between any two nodes with A* algorithm. Over a sequence of message-passing steps, the model refines its prediction of the shortest path.
 
-<img src="results/20211001-230330/thumbnail.png" title="px(픽셀) 크기 설정" alt="sample"></img><br/>
+<img src="results/20211001-230330/thumbnail.png" title="graph samples" alt="sample"></img><br/>
 
 Graph generation and constructing graph neural network is mostly based on [Graph Nets](https://github.com/deepmind/graph_nets) library.
 
@@ -23,8 +23,8 @@ To run, simply execute ``` python3 main.py ```. This will, by default, start tra
 
 ### Results 
 
-
-
+<img src="results/20211001-230330/result1.png" title="results1" alt="sample"></img><br/>
+<img src="results/20211001-230330/result1.png" title="results2" alt="sample"></img><br/>
 
 ### Reference
 [1] Battaglia, P. W., Hamrick, J. B., Bapst, V., Sanchez-Gonzalez, A., Zambaldi, V., Malinowski, M., ... & Pascanu, R. (2018). Relational inductive biases, deep learning, and graph networks. arXiv preprint arXiv:1806.01261. \
