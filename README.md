@@ -24,7 +24,7 @@ To run, simply execute ``` python3 main.py ```. This will, by default, start tra
 ### Results 
 
 <img src="results/20211001-230330/result1.png" title="results1" alt="sample"></img><br/>
-<img src="results/20211001-230330/result1.png" title="results2" alt="sample"></img><br/>
+<img src="results/20211001-230330/result2.png" title="results2" alt="sample"></img><br/>
 
 ### Reference
 [1] Battaglia, P. W., Hamrick, J. B., Bapst, V., Sanchez-Gonzalez, A., Zambaldi, V., Malinowski, M., ... & Pascanu, R. (2018). Relational inductive biases, deep learning, and graph networks. arXiv preprint arXiv:1806.01261. \
