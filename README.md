@@ -12,6 +12,7 @@ This repository is consisted of 3 parts
   2) Collection of shortest paths
   3) Train & Test a Graph Neural Network that given an initial and goal node, outputs the shortest path
 
+
 ### Set-up
 
 Installation of dependencies:
@@ -37,8 +38,10 @@ Installation of dependencies:
   optimizer = snt.optimizers.Adam(learning_rate)
   ```
 
-
 To run, simply execute ``` python3 main.py ```. This will, by default, start training the graph neural network with the graph dataset which the labels is obtained from the A* algorithm.
+
+<img src="results/training.png" title="graph samples" alt="sample"></img><br/>
+
 
 ### Results 
 
