@@ -59,6 +59,11 @@ To run, simply execute ``` python3 main.py ```. This will, by default, start tra
 <img src="results/20211001-230330/result_1.png" title="results1" alt="sample"></img><br/>
 <img src="results/20211001-230330/result_2.png" width="50%" height="50%" title="results2" alt="sample"></img><br/>
 
+### Errors & Warnings
+> 1. Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory;
+> https://www.tensorflow.org/install/gpu https://stackoverflow.com/questions/63199164/how-to-install-libcusolver-so-11
+
+
 ### References
 [1] Battaglia, P. W., Hamrick, J. B., Bapst, V., Sanchez-Gonzalez, A., Zambaldi, V., Malinowski, M., ... & Pascanu, R. (2018). Relational inductive biases, deep learning, and graph networks. arXiv preprint arXiv:1806.01261. \
 [2] https://github.com/deepmind/graph_nets \
