@@ -16,7 +16,26 @@ This repository is consisted of 3 parts
 
 Installation of dependencies:
 * First, run ``` pip3 install -r requirements.txt ```
-* Next, 
+* Next, in ``` main.py ``` tweak the parameters for the training. The default values are as below.
+  
+  ``` 
+  SEED = 1234
+  theta = 20  # Try 20-60 for good non-trees. Large values (1000+) make trees. 
+  num_nodes_min_max = (10, 15)
+  
+  num_processing_steps_tr = 10
+  num_processing_steps_ge = 10
+
+  num_training_iterations = 30000
+  batch_size_tr = 32
+  batch_size_ge = 100
+  
+  num_elements_min_max_tr = (8, 17)
+  num_elements_min_max_ge = (16, 33)
+  
+  learning_rate = 1e-3
+  optimizer = snt.optimizers.Adam(learning_rate)
+  ```
 
 
 To run, simply execute ``` python3 main.py ```. This will, by default, start training the graph neural network with the graph dataset which the labels is obtained from the A* algorithm.
