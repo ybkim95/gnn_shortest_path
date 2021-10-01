@@ -21,7 +21,7 @@ Each time A* enters a node, it calculates the cost, f(n)(n being the neighboring
 These values we calculate using the following formula:
 f(n) = g(n) + h(n)
 
-<img src="utils/pseudo_code.png" title="graph samples" alt="sample"></img><br/>
+<img src="utils/pseudo_code.png" width="50%" height="50%" title="graph samples" alt="sample"></img><br/>
 
 
 ### Set-up
