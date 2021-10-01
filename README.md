@@ -12,12 +12,23 @@ This repository is consisted of 3 parts
   2) Collection of shortest paths
   3) Train & Test a Graph Neural Network that given an initial and goal node, outputs the shortest path
 
+### A* Search Algorithm
+
+It is an informed search algorithm, as it uses information about the path cost and also uses heuristics to find the solution. 
+A* achieve optimality and completeness, two valuable property of search algorithms.
+
+Each time A* enters a node, it calculates the cost, f(n)(n being the neighboring node), to travel to all of the neighboring nodes, and then enters the node with the lowest value of f(n).
+These values we calculate using the following formula:
+f(n) = g(n) + h(n)
+
+<img src="pseudo_code.png" title="graph samples" alt="sample"></img><br/>
+
 
 ### Set-up
 
 Installation of dependencies:
 * First, run ``` pip3 install -r requirements.txt ```
-* Next, in ``` main.py ``` tweak the parameters for the training. The default values are as below.
+* Next, in ``` main.py ``` tweak the parameters for the training. The default values are as below:
   
   ``` 
   SEED = 1234
@@ -48,7 +59,9 @@ To run, simply execute ``` python3 main.py ```. This will, by default, start tra
 <img src="results/20211001-230330/result_1.png" title="results1" alt="sample"></img><br/>
 <img src="results/20211001-230330/result_2.png" width="50%" height="50%" title="results2" alt="sample"></img><br/>
 
-### Reference
+### References
 [1] Battaglia, P. W., Hamrick, J. B., Bapst, V., Sanchez-Gonzalez, A., Zambaldi, V., Malinowski, M., ... & Pascanu, R. (2018). Relational inductive biases, deep learning, and graph networks. arXiv preprint arXiv:1806.01261. \
 [2] https://github.com/deepmind/graph_nets \
-[3] https://colab.research.google.com/github/deepmind/graph_nets/blob/master/graph_nets/demos/shortest_path.ipynb 
+[3] https://colab.research.google.com/github/deepmind/graph_nets/blob/master/graph_nets/demos/shortest_path.ipynb \
+[4] https://towardsdatascience.com/a-star-a-search-algorithm-eb495fb156bb \
+[5] https://www.semanticscholar.org/paper/An-Efficient-Hardware-Architecture-of-the-A-star-Seo-Ok/d503e53acad139da5e03709d4a8087251fb5e023
