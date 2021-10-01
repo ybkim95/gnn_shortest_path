@@ -51,7 +51,7 @@ Installation of dependencies:
 
 To run, simply execute ``` python3 main.py ```. This will, by default, start training the graph neural network with the graph dataset which the labels is obtained from the A* algorithm.
 
-<img src="results/training.png" title="graph samples" alt="sample"></img><br/>
+<img src="results/training1.png" title="graph samples" alt="sample"></img><br/>
 
 
 ### Results 
