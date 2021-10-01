@@ -3,7 +3,7 @@
 This repository houses the code for "Graph Neural Network for finding the shortest path" 
 In detail, it creates random graphs, and trains a graph network to label the nodes and edges on the shortest path between any two nodes with A* algorithm. Over a sequence of message-passing steps, the model refines its prediction of the shortest path.
 
-<img src="results/20211001-230330/thumbnail.png" width="850px" height="300px" title="px(픽셀) 크기 설정" alt="sample"></img><br/>
+<img src="results/20211001-230330/thumbnail.png" width="850px" height="20px" title="px(픽셀) 크기 설정" alt="sample"></img><br/>
 
 Graph generation and constructing graph neural network is mostly based on [Graph Nets](https://github.com/deepmind/graph_nets) library.
 
