@@ -1,6 +1,6 @@
 # Graph Neural Network for finding the shortest path with A*
 
-This repository houses the code for "Graph Neural Network for finding the shortest path" \
+This repository houses the code for "Graph Neural Network for finding the shortest path". \
 In detail, it creates random graphs, and trains a graph network to label the nodes and edges on the shortest path between any two nodes with A* algorithm. Over a sequence of message-passing steps, the model refines its prediction of the shortest path.
 
 <img src="results/20211001-230330/thumbnail.png" title="graph samples" alt="sample"></img><br/>
