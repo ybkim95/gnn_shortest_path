@@ -3,7 +3,7 @@
 This repository houses the code for "Graph Neural Network for finding the shortest path". \
 In detail, it creates random graphs, and trains a graph network to label the nodes and edges on the shortest path between any two nodes with A* algorithm. Over a sequence of message-passing steps, the model refines its prediction of the shortest path.
 
-<img src="results/20211001-230330/thumbnail.png" title="graph samples" alt="sample"></img><br/>
+<img src="pics/sample.png" title="graph samples" alt="sample"></img><br/>
 
 Graph generation and constructing graph neural network is mostly based on [Graph Nets](https://github.com/deepmind/graph_nets) library.
 
@@ -21,7 +21,7 @@ Each time A* enters a node, it calculates the cost, f(n)(n being the neighboring
 These values we calculate using the following formula:
 f(n) = g(n) + h(n)
 
-<img src="utils/pseudo_code.png" width="50%" height="50%" title="graph samples" alt="sample"></img><br/>
+<img src="pics/pseudo_code.png" width="50%" height="50%" title="graph samples" alt="sample"></img><br/>
 
 
 ### Set-up
@@ -51,13 +51,13 @@ Installation of dependencies:
 
 To run, simply execute ``` python3 main.py ```. This will, by default, start training the graph neural network with the graph dataset which the labels is obtained from the A* algorithm.
 
-<img src="results/training.png" width="75%" height="75%" title="graph samples" alt="sample"></img><br/>
+<img src="pics/training.png" width="75%" height="75%" title="graph samples" alt="sample"></img><br/>
 
 
 ### Results 
 
-<img src="results/20211001-230330/result_1.png" title="results1" alt="sample"></img><br/>
-<img src="results/20211001-230330/result_2.png" width="50%" height="50%" title="results2" alt="sample"></img><br/>
+<img src="pics/result_1.png" title="results1" alt="sample"></img><br/>
+<img src="pics/result_2.png" width="50%" height="50%" title="results2" alt="sample"></img><br/>
 
 ### Errors & Warnings
 > 1. Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory;
