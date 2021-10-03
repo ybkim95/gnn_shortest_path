@@ -1,0 +1,12 @@
+[parameters]
+* time: 20211002-194709
+* seed: 1234
+* theta: 51
+* num_train_processing_steps: 10
+* num_test_processing_steps: 10
+* num_iter: 10000
+* train_batch_size: 32
+* test_batch_size: 98
+* train_min_max_nodes: (8, 17)
+* test_min_max_nodes: (16, 33)
+* learning_rate: 0.0011445965282978266
