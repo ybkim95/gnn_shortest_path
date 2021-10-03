@@ -46,8 +46,12 @@ graph_net_module = gn.modules.GraphNetwork(
 # Pass the input graphs to the graph network, and return the output graphs.
 output_graphs = graph_net_module(input_graphs)
 ```
+In detail, the exact model used is called EncodeProcessDecoder.
+1) An "Encoder" graph net, which independently encodes the edge, node, and global attributes (does not compute relations etc.).
+2) A "Core" graph net, which performs N rounds of processing (message-passing) steps. The input to the Core is the concatenation of the Encoder's output and the previous output of the Core (labeled "Hidden(t)" below, where "t" is the processing step).
+3) A "Decoder" graph net, which independently decodes the edge, node, and global attributes (does not compute relations etc.), on each message-passing step.
 
-<img src="pics/model.PNG" width="50%" height="50%" title="model" alt="model"></img><br/>
+<img src="pics/model.PNG" width="80%" height="80%" title="model" alt="model"></img><br/>
 
 The model is trained by supervised learning. Input graphs are procedurally generated, and output graphs have the same structure with the nodes and edges of the shortest path labeled (using 2-element 1-hot vectors). We could have predicted the shortest path only by labeling either the nodes or edges, and that does work, but we decided to predict both to demonstrate the flexibility of graph nets' outputs.
 
