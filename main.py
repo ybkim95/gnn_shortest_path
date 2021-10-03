@@ -9,7 +9,7 @@ import networkx as nx
 import sonnet as snt
 
 from graph_nets import graphs, utils_np, utils_tf
-from graph_nets.demos_tf2 import models
+from graph_nets.demos_tf2 import models # 핵심 Graph Network
 from scipy import spatial
 
 from utils.a_star import *
