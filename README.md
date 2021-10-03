@@ -51,13 +51,13 @@ Installation of dependencies:
 
 To run, simply execute ``` python3 main.py ```. This will, by default, start training the graph neural network with the graph dataset which the labels is obtained from the A* algorithm.
 
-<img src="pics/training.png" width="75%" height="75%" title="graph samples" alt="sample"></img><br/>
+<img src="pics/train.png" width="75%" height="75%" title="graph samples" alt="sample"></img><br/>
 
 
 ### Results 
 
-<img src="pics/result_1.png" title="results1" alt="sample"></img><br/>
-<img src="pics/result_2.png" width="50%" height="50%" title="results2" alt="sample"></img><br/>
+<img src="pics/result1.png" title="results1" alt="sample"></img><br/>
+<img src="pics/result2.png" width="50%" height="50%" title="results2" alt="sample"></img><br/>
 
 ### Errors & Warnings
 > 1. Could not load dynamic library 'libcublas.so.10'; dlerror: libcublas.so.10: cannot open shared object file: No such file or directory;
